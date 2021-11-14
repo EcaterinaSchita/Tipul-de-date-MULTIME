@@ -1,0 +1,7 @@
+s1 = set(eval(input("Introduceti multimea: ")))
+s2 = set(eval(input("Introduceti o alta multime: ")))
+print(s1)
+print(s2)
+print("Intersectia multimilor este : ", s1.intersection(s2))
+print("Reuniunea multimilor: ", s1.union(s2))
+print("Diferenta multimilor este: ", s1.difference(s2))
